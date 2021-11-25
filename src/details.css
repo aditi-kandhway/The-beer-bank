@@ -1,0 +1,34 @@
+.adddetails{
+    display:flex;
+}
+.adddetails div{
+    margin:10px;
+}
+.detailImage{
+    height:550px;
+}
+.detailImage img{
+    height:100%;
+}
+.name{
+  color:orange;
+  font-weight:600;
+  font-size:25px;
+}
+.tagline{
+  color:rgb(184, 179, 179);
+  margin:6px 0;
+}
+.ibu{
+    display:flex;
+    font-weight:600;
+    color:gray;
+}
+.description{
+    color:gray;
+    line-height: 25px;
+}
+.delete{
+    margin-left:600px;
+    cursor: pointer;
+}
