@@ -2,6 +2,7 @@ import {useEffect,useState} from "react";
 import axios from 'axios';
 import {BeerCard} from './BeerCard.js';
 import {ContainerDiv} from './components-styling/componentDiv.js'
+import {DetailsPopup} from './DetailsPopup.js';
 import './App.css';
 export function Home()
 {

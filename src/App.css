@@ -1,5 +1,6 @@
 body{
-  background-color: rgb(233, 229, 229);;
+  background-color: rgb(233, 229, 229);
+  position:relative;
 }
 .imgdiv{
   width:100px;

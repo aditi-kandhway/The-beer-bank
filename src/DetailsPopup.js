@@ -1,27 +1,19 @@
 import './details.css';
 import {FaTimes} from 'react-icons/fa';
 import {Details} from './components-styling/DetailsDiv.js';
+import  react, {useState,useEffect} from 'react';
 let temp=false;
-export function DetailsPopup()
+export function DetailsPopup(props,onDivchange)
 {
-    function hideDiv()
-    {
-        temp=true;
-        console.log("hidediv");
-        if(temp)
-        {
-            return <Details display="none"/>
-        }
-    }
-    if(temp)
-    {
-        return <Details display="none"/>
-    }
+    console.log(props);
+    const showHideClassName = props.showPopup==true?"flex":"none";
+    console.log(showHideClassName);
     return  <div>
-    <Details display="flex">
+    <Details display={showHideClassName}>
         <div>
             <FaTimes className="delete" onClick={()=>{
-                temp=true}}/>
+                   
+                }}/>
         </div>
         <div className="adddetails">
            <div className="detailImage">
